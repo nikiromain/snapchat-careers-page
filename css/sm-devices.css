@@ -1,0 +1,222 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px)
+{ 
+
+#header-top nav, #header-bottom
+{
+    display: none;
+}
+
+#header-top img
+{
+    display: inline-block;
+    margin: 19px 34px 19px 15px;
+}
+
+#hamburger-menu
+{
+    display: block;
+    justify-self:end;
+    align-self: center;
+    padding-right: 15px;
+}
+
+#who-we-are div
+{
+    width: 400px;
+    margin:0 20px;
+}
+
+#our-brands > div
+{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+#our-brands-section
+{
+    padding: 12px;
+    margin: 0 7px;
+}
+
+#we-are-kind
+{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+#we-are-kind img
+{
+    width: 350px;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+#we-are-smart
+{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+#we-are-smart img
+{
+    width: 350px;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+#we-are-creative
+{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+#we-are-creative img
+{
+    width: 350px;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+#snap-statement
+{
+    padding: 20px;
+    margin: 0 20px;
+}
+
+footer
+{
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+}
+
+.grid-col-footer
+{
+    grid-template-columns: 1fr;
+}
+
+footer li
+{
+    display:inline;
+}
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px)
+ { 
+
+    #header-top nav, #header-bottom
+{
+    display: none;
+}
+
+#header-top img
+{
+    display: inline-block;
+    margin: 19px 34px 19px 15px;
+}
+
+#hamburger-menu
+{
+    display: block;
+    justify-self:end;
+    align-self: center;
+    padding-right: 15px;
+}
+
+#who-we-are div
+{
+    width: 400px;
+    margin:0 20px;
+}
+
+#our-brands > div
+{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+#our-brands-section
+{
+    padding: 12px;
+    margin: 0 7px;
+}
+
+#we-are-kind
+{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+#we-are-kind img
+{
+    width: 350px;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+#we-are-smart
+{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+#we-are-smart img
+{
+    width: 350px;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+#we-are-creative
+{
+    grid-template-columns: 1fr;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+#we-are-creative img
+{
+    width: 350px;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+#snap-statement
+{
+    padding: 20px;
+    margin: 0 20px;
+}
+
+footer
+{
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+}
+
+.grid-col-footer
+{
+    grid-template-columns: 1fr;
+}
+
+footer li
+{
+    display:inline;
+}
+
+
+ }

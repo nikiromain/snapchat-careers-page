@@ -1,0 +1,282 @@
+/* CSS RESET */
+
+*
+{
+margin: 0; 
+padding: 0;
+
+}
+
+/****GENERAL STYLES***/
+
+body
+{
+    font-family:  Helvetica ; 
+    line-height: 1.7;
+}
+
+/****Header Top ***/
+
+#header-top
+{
+    background-color: #fffc00;
+    
+}
+
+.grid-header-col
+{
+    grid-template-columns: 250px 1fr;
+}
+
+#header-top img
+{
+    display: inline-block;
+    margin: 9px 34px 0 150px;
+}
+
+#header-top li
+{
+    display:inline-block;
+    padding: 11px 22px;
+}
+
+#header-top a
+{
+    color: black; 
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 0.9rem;
+}
+
+.selected-link
+{
+    border-bottom: 2px black solid;
+    padding-bottom: 5px;
+}
+
+/****Header Bottom***/
+
+#header-bottom
+{
+    background-color: white;
+    padding: 32px 0 24px;
+    margin-left: 158px;
+}
+
+#header-bottom li
+{
+    display:inline-block;
+    padding: 0 24px 0 0;
+}
+
+#header-bottom a
+{
+   text-decoration: none;
+   font-weight:bold;
+   font-size: 1rem;
+   color: black;
+}
+
+/****Hero***/
+
+#hero
+{
+    background-image: url("../img/img-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+h1
+{
+    font-size: 2.8rem;
+    color:white;
+    font-weight:100;
+    letter-spacing: 1.4px;
+}
+
+
+/****Who We Are***/
+
+#who-we-are
+{
+    padding: 80px;
+}
+
+h2
+{
+    font-size: 2rem;
+    letter-spacing: 1.4px;
+    font-weight: 200;
+    margin-bottom: 7px;
+}
+
+#who-we-are div
+{
+    width: 600px;
+    margin:0 auto;
+}
+
+#who-we-are p
+{
+    font-size: 1.1rem;
+    letter-spacing: 1.4px;
+    font-weight:lighter;
+
+}
+
+/****Our Brands***/
+#our-brands
+{
+    background-color: #F9F9F9;
+    padding: 80px 0 80px 10px;
+}
+
+.our-brands-section
+{
+    padding: 30px ;
+}
+
+.our-brands-section img
+{
+    width: 100px;
+    height: 100px;
+}
+
+#our-brands> div
+{
+    margin: 0 158px;
+}
+
+/****We Are Kind***/
+#we-are-kind
+{
+    padding: 120 10px;
+    height: 400px;
+    margin: 0 108px;
+   
+}
+
+#we-are-kind img
+{
+    width: 600px;
+    border-radius: 30px;
+}
+
+#we-are-kind p
+{
+    font-size: 1.28rem;
+    font-weight: lighter; 
+}
+
+/****We Are Smart***/
+#we-are-smart
+{
+    margin: 0;
+    padding: 120 170px;
+    height: 400px;
+    background-color: #F9F9F9;
+}
+
+
+#we-are-smart img
+{
+    width: 600px;
+    border-radius: 30px;
+}
+
+#we-are-smart p
+{
+    font-size: 1.28rem;
+    font-weight: lighter; 
+}
+
+/****We Are Creative***/
+#we-are-creative
+{
+    padding: 120 10px;
+    height: 400px;
+    margin: 0 108px;
+}
+
+#we-are-creative img
+{
+    width: 600px;
+    border-radius: 30px;
+}
+
+#we-are-creative p
+{
+    font-size: 1.28rem;
+    font-weight: lighter; 
+}
+
+#ready-to-join
+{
+    background-color: #fffc00;
+    height: 80vh;
+}
+
+h4
+{
+    font-size: 3rem;
+    font-weight:100;
+    letter-spacing: 1.4px;
+}
+
+#snap-statement
+{
+    padding: 80px 0 60px 0;
+    margin: 0 158px;
+}
+
+h5
+{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+hr
+{
+    border: 1px solid #EEEEEE;
+}
+
+.grid-col-footer
+{
+    grid-template-columns: 125px 1fr;
+}
+
+footer
+{
+    margin-left: 158px;
+    padding: 15px 0;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+footer p
+{
+    color: #656D78;
+}
+
+footer li
+{
+    display: inline-block;
+}
+
+footer a
+{
+    color: black;
+    text-decoration: none;
+    padding: 0 7px;
+}
+
+
+
+
+
+
+
+
+
